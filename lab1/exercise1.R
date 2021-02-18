@@ -34,3 +34,7 @@ qqnorm(EPI); qqline(EPI)
 
 x <- seq(30,95,1)
 qqplot(qt(ppoints(250), df = 5), x, xlab = "Q-Q plot for tdsn"); qqline(x)
+
+par(pty="s")
+qqplot(EPI,DALY)
+boxplot(EPI,DALY)

@@ -1,2 +1,4 @@
 *.xls
 *.csv
+*.RData
+*.Rhistory
